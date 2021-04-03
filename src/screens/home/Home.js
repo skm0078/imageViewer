@@ -4,7 +4,7 @@ import Header from '../../common/header/Header';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
-import img from '../../assets/ProfilePic.JPG';
+import img from '../../assets/profilepic.jpeg';
 import Avatar from '@material-ui/core/Avatar';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import Favorite from '@material-ui/icons/Favorite';

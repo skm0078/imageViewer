@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Profile.css';
 import Header from '../../common/header/Header';
-import img from '../../assets/ProfilePic.JPG';
+import img from '../../assets/profilepic.jpeg';
 import Typography from '@material-ui/core/Typography';
 import EditIcon from '@material-ui/icons/Edit';
 import Fab from '@material-ui/core/Fab';
