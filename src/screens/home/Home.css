@@ -1,0 +1,87 @@
+.mainContainer {
+  width: 100%;
+}
+
+.HomePage {
+  padding-top: 64px;
+}
+
+.homeMain {
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.CardContainer {
+  /*padding-left: 5%;*/
+  /*padding-right: 5%;*/
+  margin-left: 20px;
+  min-width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.cardStyle {
+  width: 600px;
+  display: inline-block;
+  flex-direction: column;
+  margin: 20px;
+  min-width: 500px;
+}
+
+.image {
+  height: 500px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.PostLikeSection {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: baseline;
+}
+
+.PostLikeButton {
+  margin-right: 10px;
+}
+
+.Tags {
+  color: #0095f6;
+}
+
+.NewComment {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /*justify-content: baseline;*/
+  align-items: center;
+}
+
+.AddNewComment {
+  margin: 10px;
+  height: 35px;
+}
+
+.commentInput {
+  width: 80%;
+}
+
+.bold {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.Comments {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.CommentSection {
+  height: 100px;
+  overflow-y: auto;
+}
