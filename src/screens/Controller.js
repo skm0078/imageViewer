@@ -25,7 +25,6 @@ class Controller extends Component {
             likeDetails: new Array(8).fill(false),
             follows: Math.floor(Math.random() * 20),
             followedBy: Math.floor(Math.random() * 20),
-            // commentsList: this.commentGenerator(100),
             commentsList: this.commentGenerator(100),
             tagsList: this.tagGenerator(100)
         }

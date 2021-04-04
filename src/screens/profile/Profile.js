@@ -131,7 +131,7 @@ class Profile extends Component {
                                     <div className="InnerDiv">
                                         <div>
                                             <img className="UserProfilePhoto" src={img}
-                                                alt="profile" /*onClick={this.openPostModel.bind(this, "interimorary Test Post", img, "testUser", Math.floor(Math.random() * 20), false, 2 )}*/ />
+                                                alt="profile" />
                                         </div>
                                         <div className="UserAccountDetails">
                                             <div>

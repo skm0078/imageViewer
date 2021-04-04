@@ -54,8 +54,6 @@ class Home extends Component {
 
     render() {
 
-        //console.log(this.props.posts)
-
         let interim = 0
 
         let interimusername = ""
