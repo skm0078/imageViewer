@@ -31,13 +31,13 @@ class Controller extends Component {
 
     }
 
-
+// Sample Comment function
     makeComment(length) {
         var result = '';
-        var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ';
+        var characters =['Good','Nice','lovely','amazing','cool','excellent']
         var charactersLength = characters.length;
         for (var i = 0; i < length; i++) {
-            result += characters.charAt(Math.floor(Math.random() * charactersLength));
+            result += ' ' + characters[(Math.floor(Math.random() * charactersLength))];
         }
         return result;
     }
